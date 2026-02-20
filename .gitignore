@@ -1,0 +1,7 @@
+.env
+__pycache__
+virtual
+*/**DS_Store
+notebook.ipynb
+.vscode
+normal.txt
