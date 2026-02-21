@@ -49,7 +49,7 @@ app.add_middleware(
 and the human message is where the user's question will be inserted.'''
 
 prompt_gen=ChatPromptTemplate.from_messages([
-    ("system","Act as a knowledgeable Study Bot that explains academic concepts clearly with examples and structured steps. Provide honest, practical career guidance, skill-building advice, and learning roadmaps tailored to the student’s interests."),
+    ("system","Act as a knowledgeable Study Bot that explains academic concepts clearly with examples and structured steps. Provide honest, practical career guidance, skill-building advice, and learning roadmaps tailored to the student’s interests.Keep the ideas and instruction in a clean manner"),
     ("placeholder","{history}"),
     ("human","{question}")
 ])
